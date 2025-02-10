@@ -35,3 +35,25 @@ body {
   text-decoration: none;
   color: rgb(89, 200, 219);
 }
+.carousel-item img {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.slide-text {
+  color: rgb(89, 200, 219);
+  margin-inline: auto;
+  margin: auto auto;
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
